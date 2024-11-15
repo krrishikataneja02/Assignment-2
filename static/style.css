@@ -1,0 +1,77 @@
+/* static/style.css */
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    background-image: url(image.jpeg);
+    background-size: cover;
+}
+
+.container {
+    background-image: url(image.jpeg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    position: relative;
+    top:70px;
+    left:35%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-image: url(image.png);
+    background-size: cover;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.prediction {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+label{
+    color:white;
+}
+h3{
+    color:white;
+}
+h1{
+    color:white;
+    text-align: center;
+}
